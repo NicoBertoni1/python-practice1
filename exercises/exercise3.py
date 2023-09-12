@@ -6,14 +6,13 @@ True si 2 personas tienen el mismo nombre pero distinta edad.
 Aclaración: Se puede utilizar and, or y not.
 """
 
-persona_01 = "Kevin"
-edad_01 = 24
-persona_02 = "Kevin"
-edad_02 = 41
+persona1 = "Kevin"
+edad1 = 24
+persona2 = "Kevin"
+edad2 = 41
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+if (persona1 = persona2) and (edad1 != edad2):
+  comparar_nombre_y_edad = True
 
 assert comparar_nombre_y_edad
 
@@ -27,9 +26,8 @@ Aclaración: Se puede utilizar and, or y not.
 marca_del_auto = "Chevrolet"
 modelo_de_auto = 1998
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+if  (marca-del_auto != "Ford") and (modelo_del_auto =< 2000):
+  comparar_marca_y_modelo = True
 
 assert comparar_marca_y_modelo
 
@@ -41,13 +39,15 @@ campo 2 es mayor a la del campo 3.
 Restricción: Utilizar comparaciones encadenadas - No utilizar and, or ni not.
 """
 
-superficie_de_campo_01 = 85121
-superficie_de_campo_02 = 851212
-superficie_de_campo_03 = 8512
+campo1 = 85121
+campo2 = 851212
+campo3 = 8512
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+if (cammpo1 < campo2):
+  elif (campo2 > campo3):
+    comparar_superficie = True
+else: 
+    comparar_superficie = False
 
 assert comparar_superficie
 
@@ -65,8 +65,12 @@ naranjas = 400
 manzanas = 300
 peras = 30
 
-# COMPLETAR - INICIO
+if (bananas < naranjas /2):
+ elif( naranjas /2 < manzanas *2):
+ elif(manzanas *2 <= peras **2):
+  comparar_frutas = True
+else:
+comparar_frutas = False
 
-# COMPLETAR - FIN
 
 assert comparar_frutas
