@@ -10,9 +10,13 @@ numero_02 = "456"
 numero_03 = "789"
 numero_04 = "132"
 
-# COMPLETAR - INICIO
+numero1 = int(numero_01)
+numero2 = int(numero_02)
+numero3 = int(numero_03)
+numero4 = int(numero_04)
 
-# COMPLETAR - FIN
+suma_de_numeros = numero1 + numero2 + numero3 + numero4
+print(resultado)
 
 assert suma_de_numeros == 1500
 
@@ -25,9 +29,11 @@ numero_01 = 123
 numero_02 = 456
 numero_03 = 789
 
-# COMPLETAR - INICIO
+numero1 = str(numero_01)
+numero2 = str(numero_02)
+numero3 = str(numero_03)
 
-# COMPLETAR - FIN
+suma_de_numeros_string = concatenar(numero1, numero2, numero3)
 
 assert suma_de_numeros_string == "123456789"
 
@@ -41,9 +47,12 @@ numero_binario = "0b111010110101110111101000000"
 numero_octal = "0o1425"
 numero_hexadecimal = "0x6f540"
 
-# COMPLETAR - INICIO
+numeroB = int(numero_binario)
+numeroO = int(numero_octal)
+numeroH = int(numero_hexadecimal)
 
-# COMPLETAR - FIN
+multiplicacion_de_numeros == numeroB * numeroO * numeroH
+print(multiplicacion_de_numeros)
 
 assert multiplicacion_de_numeros == 44397345600000000
 
@@ -58,8 +67,11 @@ numero_02 = "0x6f54F"
 numero_03 = "0o1234"
 numero_04 = 654
 
-# COMPLETAR - INICIO
+numero1 = int(numero_01)
+numero2 = int(numero_02)
+numero3 = int(numero_03)
 
-# COMPLETAR - FIN
+resultado_resta = (numero1 - numero2) - numero3
+print(resultado_resta)
 
 assert resultado_resta == -456350
